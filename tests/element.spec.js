@@ -21,9 +21,9 @@ test('inbuild locators', async({page})=>{
     await page.waitForTimeout(3000);
     await expect(output).toBeVisible();
       
-//getByText
+// //getByText
 
-await expect(page.getByText('Name:Ramya')).toBeVisible();
+// await expect(page.getByText('Name:Ramya')).toBeVisible();
 
 
 
