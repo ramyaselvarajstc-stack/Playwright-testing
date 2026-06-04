@@ -26,13 +26,13 @@
 
 // });
 
-// // import{test} from '@playwright/test';
-// // test('product base',async({page})=>{
-// // await page.goto('https://www.myntra.com/');
-// // await page.waitForTimeout(2000);
-// // const Allproduct= await page.locator('//li[@class="product-base"]//descendant::span[@class="product-discountedPrice"]'
-// //   ).allTextContents();
-// // console.log("All Products :", Allproduct);
+import{test} from '@playwright/test';
+test('product base',async({page})=>{
+await page.goto('https://www.myntra.com/');
+await page.waitForTimeout(2000);
+const Allproduct= await page.locator('//li[@class="product-base"]//descendant::span[@class="product-discountedPrice"]'
+  ).allTextContents();
+console.log("All Products :", Allproduct);
 
 
 
