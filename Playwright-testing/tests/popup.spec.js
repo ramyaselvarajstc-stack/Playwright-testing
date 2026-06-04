@@ -23,6 +23,6 @@ test('Popup handling', async({page})=>{
     await page.click('#confirmButton');
     await page.waitForTimeout(2000);
     await page.click('#promtButton');
-    await page.waitForTimeout(3000);
+    // await page.waitForTimeout(3000);
     
 });
